@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .icondiv {
+    @apply text-gray-500 text-[13px] hover:bg-blue-100 h-7 cursor-pointer flex justify-start items-center mb-1;
+  }
+  .inputdiv {
+    @apply h-[50px] m-5 w-[250px];
+  }
+}
+
+.menu_icons {
+  font-size: 25px !important;
+  color: rgb(113, 79, 145);
+}
+
+.icon {
+  font-size: 17px !important;
+  margin-right: 5px;
+  margin-left: 10px;
+  color: rgb(154, 120, 185);
+}
+
+/* add new */
+
+.addnewinput {
+  width: 100%;
+  padding: 5px;
+  outline: none;
+  border-bottom: 1px solid rgb(48, 48, 48);
+}
